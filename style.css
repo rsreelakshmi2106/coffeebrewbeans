@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500&family=Dancing+Script&family=Dhurjati&family=Indie+Flower&family=Inter:wght@200&family=Libre+Baskerville:wght@700&family=Lobster&family=Mukta&family=Shadows+Into+Light&family=Special+Elite&family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(214, 152, 71, 0.627);
+}
+.head{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(226, 153, 56);
+    text-align: center;
+}
+.head #hd{
+    font-family: Shadows Into Light;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head #st{
+    width: 100%;
+    height: 4520px;
+}
+.head #st h4{
+    background-color: rgb(226, 153, 56);
+    position: sticky;
+    top: 0px;
+    font-size: 25px;
+}
+.about{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.about .cq{
+    margin: 20px;
+    font-size: 40px;
+}
+.about .cq p{
+    font-size: 60px;
+}
+.about .abox{
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+.about .abox p{
+    text-align: justify;
+    font-family: Libre Baskerville;
+}
+.type{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin: 50px; */
+}
+.type h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Indie Flower;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    font-size: 40px;
+    font-weight: 900;
+}
+.type p{
+    font-size: larger;
+    font-weight: 600;
+    font-family: Mukta;
+}
+.type ul li{
+    font-size: 20px;
+    margin:20px;
+    font-family: Mukta;
+}
+.brand h1{
+    text-align: center;
+    font-family: Indie Flower;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    font-size: 40px;
+    font-weight: 900;
+}
+/* .brand p{
+    font-family: Special Elite;
+} */
+.brand .row{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.brand img{
+    margin-right: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+h2{
+    font-family: Special Elite;
+}
+.det{
+    width: 600px;
+}
+.det p{
+    font-size: 25px;
+}
+#i2{
+    margin-left:50px ;
+}
+.gallery{
+    text-align: center;
+    width: 80%;
+    margin: 8%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: rgb(180, 105, 8);
+}
+.gallery h1{
+    padding: 30px;
+    font-family: Indie Flower;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    font-size: 40px;
+    font-weight: 900;
+}
+.gr1{
+    display: flex;
+    justify-content: center;
+}
+.gr1 img{
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.gr1 img:hover{
+    transition: 0.8s;
+    width: 280px;
+    height: 230px;
+    box-shadow: 3px 3px 3px 3px;
+}
+.query h1{
+    text-align: center;
+    font-family: Indie Flower;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    font-size: 40px;
+    font-weight: 900;
+}
+.query div{
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 370px;
+    width: 700px;
+    background-color: rgb(180, 105, 8);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+form{
+    margin-left: 200px;
+}
+input{
+    height: 30px;
+}
+input,textarea{
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:120px ;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: rgb(245, 217, 140);
+}
+button:hover{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 193, 145);
+}
+footer{
+    background-color: rgb(167, 117, 51);
+}
+.frow{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcol{
+    width: 500px;
+    margin: 30px;
+}
+.fcol h1{
+    font-family: Indie Flower;
+    text-shadow: 3px 3px 3px rgb(90, 59, 59);
+    font-size: 40px;
+    font-weight: 900;
+}
+.fcol a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.fcol a:hover{
+    text-shadow: 3px 3px 3px;
+    color: black;
+}
+.fcol ul li{
+    display: flex;
+    float: left;
+    margin: 5px;
+}
+footer .last p{
+    text-align: center;
+}
+form label{
+    font-size: 20px;
+    font-weight: 600;
+}
